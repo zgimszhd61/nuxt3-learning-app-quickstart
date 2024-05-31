@@ -49,3 +49,23 @@ async def get_mountains():
   const { data, pending, error } = await useAsyncData('mountains', () => $fetch('http://127.0.0.1:8000/mountains'));
   </script>
 ```
+
+
+### 实战教程：
+linktree clone:
+ - https://www.youtube.com/watch?v=NtsbjB8QD3Y
+
+aliexpress clone:
+ - https://www.youtube.com/watch?v=dVcCRFVhz74
+
+tiktok clone:
+ - https://www.youtube.com/watch?v=CHSL0Btbj_o
+
+
+### 当前我觉得VueJS比较难的内容(想要搞明白）：
+  [X] 不同page页面之间的跳转如何实现.
+  [ ] 从极简的开始入门，跟着最简单的案例走一遍.
+  [ ] lazyLoad -- 如何实现下滑后再加载的功能.
+  [ ] 多页面实现 -- 如何实现route路由功能.
+  [ ] AXIOS -- 如何实现获取外部数据.
+  [ ] useFetch和useAsyncData -- 如何实现获取外部数据.
