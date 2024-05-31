@@ -61,6 +61,14 @@ aliexpress clone:
 tiktok clone:
  - https://www.youtube.com/watch?v=CHSL0Btbj_o
 
+### 其他小Tips
+ - public/ 目录下主要放静态图片和robots.txt 。 https://nuxt.com/docs/guide/directory-structure/public
+ - server/ 目录用于向你的应用注册API和服务器处理程序，即放typescript的API程序（你也可以不用它，而是自己另用python + fastapi写API接口） https://nuxt.com/docs/guide/directory-structure/server
+ - Nuxt 有一个插件系统，可以在创建 Vue 应用时使用 Vue 插件及其他功能。// 这个我还没用过.
+ - 使用 composables/ 目录自动导入你的 Vue 组合函数到应用中。 -- 没用过。 https://nuxt.com/docs/guide/directory-structure/composables
+ - assets/ 目录用来添加构建工具会处理的所有网站资源。 -- 没用过。 https://nuxt.com/docs/guide/directory-structure/assets
+ - Nuxt 提供中间件，在进入特定路由前运行代码。 -- 没用过。 https://nuxt.com/docs/guide/directory-structure/middleware
+ - 使用content/目录制作一个基于文件的内容管理系统。 -- https://nuxt.com/docs/guide/directory-structure/content
 
 ### 当前我觉得VueJS比较难的内容(想要搞明白）：
  - [X] 不同page页面之间的跳转如何实现.
