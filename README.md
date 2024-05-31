@@ -24,6 +24,7 @@ async def get_mountains():
 ```
 
 ## 前端使用nuxt3
+ - 只需要在app.vue之中加上`<NuxtPage />`，就会默认渲染pages目录下的多页面。
 ### pages/index.vue
 ```
 <template>
