@@ -25,3 +25,4 @@ npm run dev
 ## 参考材料
  - https://ui.nuxt.com/components/progress
  - https://nuxt.com/docs/getting-started/installation
+ - https://nuxt.com.cn/docs/guide/directory-structure/components
